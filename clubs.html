@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .header,
+      .footer {
+        background-color: teal;
+        color: white;
+        padding: 15px;
+      }
+      
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .menu {
+        width: 25%;
+      }
+      
+      .content {
+        width: 75%;
+      }
+      
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #33b5e5;
+        color: #ffffff;
+      }
+      
+      .menu li:hover {
+        background-color: #0099cc;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>Clubs And Teams</h1>
+    </div>
+
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li>About Us</li>
+          <li>Clubs/Teams</li>
+          <li>Departments</li>
+        </ul>
+      </div>
+
+      <div class="column content">
+        <h1>Enver Creek Clubs And Teams</h1>
+        <p>Enver Creek has alot of clubs and teams that students can join, have fun and learn new things that they never knew before like and improve their skills in there favourite activites basketball, soccer, volleyball, ice hockey, dance, robotics, weight
+          training, chess, bhangra jazz band, fly fishing and green team and more. These activites can happen before, during or after school depending on what sport or club activite it is. </div>
+      <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg" alt="HTML5 Icon" style="width:300px;height:200px;">
+      <img src="https://www.surreyschools.ca/schools/envercreek/About/Administration/Documents/COUGARS%20LOGO.jpg" alt="HTML5 Icon" style="width:259px;height:200px;">
+    </div>
+
+
+    <div class="footer">
+      <p>Call us at 604-543-8149</p>
+      <p>Email us at envercreek@surreyschools.ca</p>
+      <p>https://twitter.com/ECSSinfo</p>
+      <p>Fax: 604-543-9762</p>
+    </div>
+
+  </body>
+
+</html>
