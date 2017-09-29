@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+
+<html>
+
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .header,
+      .footer {
+        background-color: teal;
+        color: white;
+        padding: 15px;
+      }
+      
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .menu {
+        width: 25%;
+      }
+      
+      .content {
+        width: 75%;
+      }
+      
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #33b5e5;
+        color: #ffffff;
+      }
+      
+      .menu li:hover {
+        background-color: #0099cc;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>Departments</h1>
+    </div>
+
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li>About Us</li>
+          <li>Clubs/Teams</li>
+          <li>Departments</li>
+        </ul>
+      </div>
+
+      <div class="column content">
+        <h1>Departments</h1>
+        <p>There are all of departments at Enver Creek some are Bases, Business, Education, Career, Counselling, Culinary Arts, English, Home Economics, Information Technology, Languages Learner Support Team, Library, Math, Performing Arts, Physical Education,
+          Planning Graduation Transitions, Science, Social Studies, Teacher Advisory Grouping (TAG), Technology Education, Visual Arts </div>
+      <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg" alt="HTML5 Icon" style="width:300px;height:200px;">
+      <img src="https://www.surreyschools.ca/schools/envercreek/About/Administration/Documents/COUGARS%20LOGO.jpg" alt="HTML5 Icon" style="width:259px;height:200px;">
+    </div>
+
+
+    <div class="footer">
+      <p>Call us at 604-543-8149</p>
+      <p>Email us at envercreek@surreyschools.ca</p>
+      <p>https://twitter.com/ECSSinfo</p>
+      <p>Fax: 604-543-9762</p>
+    </div>
+
+  </body>
+
+</html>
