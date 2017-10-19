@@ -1,122 +1,328 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-}
-.header {
-    background-color:  #2196F3;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-.footer {
-    background-color: rgb(60, 60, 60);
-    color: white;
-    padding: 15px;
-}
-.topmenu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(60, 60, 60);
-}
-.topmenu li {
-    float: left;
-}
-.topmenu li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-.topmenu li a:hover {
-    background-color: #222;
-}
-.topmenu li a.active {
-    color: white;
-    background-color: #4CAF50;
-}
-.column {
-    float: left;
-    padding: 15px;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.sidemenu {
-    width: 25%;
-}
-.content {
-    width: 75%;
-}
-.sidemenu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.sidemenu li a {
-    margin-bottom: 4px;
-    display: block;
-    padding: 8px;
-    background-color: #eee;
-    text-decoration: none;
-    color: #666;
-}
-.sidemenu li a:hover {
-    background-color: #555;
-    color: white;
-}
-.sidemenu li a.active {
-    background-color: rgb(60, 60, 60);
-    color: white;
-}
-</style>
-</head>
-<body>
 
-<ul class="topmenu">
-  <li><a href="#home" class="active">Home</a></li>
-  <li><a href="#news">Menu</a></li>
-  <li><a href="#contact">Locations</a></li>
-</ul>
+  <head>
+    <title>The Pizzeria</title>
+  </head>
 
-<div class="clearfix">
-  <div class="column sidemenu">
-    <ul>
-      <li><a href="#flight">Chesse</a></li>
-      <li><a href="#city">Veggie</a></li>
-      <li><a href="#island">Pepperoni</a></li>
-      <li><a href="#food">Hawiian</a></li>
-      <li><a href="#people">Meat Lovers</a></li>
-      <li><a href="#history">Deseart</a></li>
-      <li><a href="#oceans">Bevergeas</a></li>
-    </ul>
-  </div>
-
-  <div class="column content">
+  <body>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: red;
+        position: right;
+        width: 99%;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: grey;
+      }
+      
+      .header,
+      .footer {
+        background-color: yellow;
+        color: Red;
+        padding: 15px;
+      }
+      
+      h1 {
+        text-align: center;
+      }
+      
+      .content1 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid yellow;
+        padding: 3px;
+        margin: 3px;
+      }
+      
+      .content2 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid yellow;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content3 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid yellow;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content4 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid yellow;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content5 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid yellow;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content6 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid yellow;
+        padding: 3px;
+        margin: 3px;
+      }
+      .content7 {
+        background-color: white;
+        width: 500px;
+        border: 5px solid yellow;
+        padding: 3px;
+        margin: 3px;
+      }
+        
+      .content1,
+      .content2,
+      .content3,
+      .content4,
+      .content5,
+      .content6,
+      .content7{
+        width: 99%;
+      }
+      .img1,
+      .img2,
+      .img3,
+      .img4,
+      .img5,
+      .img6,
+      .img7{
+      display: block;
+      margin: 0 auto;
+      }
+    </style>
+    <nav>
+      <ul>
+       <li><a href="#About Us">About Us</a></li>
+        <li><a href="#Breakfast">Breakfast</a></li>
+        <li><a href="#Lunch">Lunch</a></li>
+        <li><a href="#Dinner">Dinner</a></li>
+        <li><a href="#Desserts">Desserts</a></li> 
+        <li><a href="#Beverages">Beverages</a></li>
+        <li><a href="#location">Location</a></li>
+      </ul>
+    </nav>
     <div class="header">
-   <h1 style="background-color:DodgerBlue;">The Pizzeria</h1>
+      <br />
+      <h1 id="Jaibir">The Pizzeria</h1><img class="img1" src="http://retaildesignblog.net/wp-content/uploads/2015/10/Pizza-place-by-Dan-Troim-Tel-Aviv-Israel.jpg" width="300" height="200">
     </div>
-    <h1>About Us</h1>
-    <p>We are The Pizzeria with the best pizza. We have all kind of pizzas from cheese to hawaiian form pepperoni to veggie.We are found at multiple locations everywhere around the world. We deliver and if we dont deliver in 15min the pizza is free. We also have chicken wings, chicken, soda, cake and more. You can find us at 601-531-2266 or at thepizzeria@gmail.com.</p>
-    <p></p>
-  </div>
-</div>
-<img src="https://s3-ap-southeast-1.amazonaws.com/assets.limetray.com/assets/user_images/logos/original/Logo11234_1423483447.jpg" alt="Girl in a jacket" width="625" height="200">
 
+    <div class="column content1" id="About Us">
+        
+      <h1>About Us</h1>
+      <p>We are the best Restaurant in the world no one is even close to our food all fresh with no chemicals ever used. We have some of the best chef's in the world that cook with passion. We have friendly waiters that will take your order and make you feel like ur a king/queen. We have everything from bacon to cake from pizza cookie to regular chesse pizza. We were awarded best restaurant in 2012, 2013, 2015, 2016, 2017 and were rated 5 gold starts</p>
+      <p>I started this buisness because I wanted to own a restaurant since I was a boy. I wanted to have the best restaurant in the world and have everyone love it and always eat in it. I started from a small building big as a one story house now i have restaurants all around the world that are ten times bigger than a one story house.</p>
+      <img class="img1" src="https://www.vegas.com/traveltips/top-10-las-vegas-pizza-restaurants/five50-guide.jpg" width="300" height="170">
+      <table style="width:99%">
+      <p>Now come to one of my restaurants and try some food and after you do you will never want to leave and never want to stop eating at my restaurant.</p>
+      
+      </table>
 
-<div class="footer">
-  <p>Footer Text</p>
-</div>
-
-</body>
-</html>
+    
+    <div class="column content2" id="Breakfast">
+      <h1>Breakfast</h1>
+      <p>We have many options that you can choose from and all of them will keep you energetic all day</p>
+      <img class="img2" src="http://weknowyourdreams.com/images/breakfast/breakfast-08.jpg" width="300" height="170">
+      <table style="width:99%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Delicious Sausages</td>
+          <td>These are the best sausages you will ever taste in your life</td>
+          <td>$1.00 per sausage</td>
+      </tr>
+      <tr>
+          <td>Perfect Juicy Bacon</td>
+          <td>The bacon here is so good you will eat it for breakfast, lunch, and dinner</td>
+          <td>2 strips for $1.50</td>
+      </tr>
+      <td>BRAND NEW Egg Pizza</td>
+          <td>Egg pizza is eggson a pizza so u can have it in the morning and be enegized for the day</td>
+          <td>$4.00 a slice</td>
+      </tr>
+      <tr>
+          <td>Bacon With Syrup Pizza  </td>
+          <td>You can have this anytime of the day it will make you want to have it forevrer</td>
+          <td>$6.00 a slice and 50 cents for different syrup</td>
+      </tr>
+      <tr>
+      </tr>
+      </table>
+ 
+    </div>
+    <div class="column content3" id="Lunch">
+      <h1>Lunch</h1>
+      <p></p>
+      <img class="img3" src="https://static1.squarespace.com/static/56a109ae841aba2cba6a8031/t/56a93b488b38d4deb5ce4e55/1453931337053/matt-norman-grilled-chicken-3-1.jpg?format=2500w" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Sweet Naan</td>
+          <td>Tastes so good it will leave your mouth watery. Crispy soft and you'll feel like your heaven if you have it with shahi paneer</td>
+          <td>$1.50 per per naan</td>
+      </tr>
+      <tr>
+          <td>Shahi Paneer/Butter chicken</td>
+          <td>Fresh Delicious and the best thing you'll ever tatse with naan with a just enough spice with the taste of heaven</td>
+          <td>$7.00 per bowl</td>
+      </tr>
+      <tr>
+          <td>Krabby Patties/fries</td>
+          <td>These are all fresh made by the one and only spongebob hand cooked. Nothing is even close to these limited edition burgers and if you want them them to be served by squidward its a extra dollar and the fries are too good to be true</td>
+          <td>$8.00 per pattie and $3.00 for regular fries</td>
+      </tr>
+      <tr>
+          <td>Sandwich</td>
+          <td>This is a beutiful masterpieace. You can add anything you want in it it may cost extra but totaly worth it</td>
+          <td>$3.00 regular +extra toppings</td>
+      </tr>
+    </table>
+    </div>
+	<div class="column content4" id="Dinner">
+      <h1>Dinner</h1>
+      <p></p>
+  <img  class="img4" src="http://www.hangout.co.ke/wp-content/uploads/2015/10/wine-and-pie.jpg" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Gucci Pizza</td>
+          <td>This is our speacilty we will make this the best pizza you'll ever have in your life it's gucci</td>
+          <td>$8.00 a slice and 30% off with any beverage with it</td>
+      </tr>
+      <tr>
+          <td>Bro chicken</td>
+          <td>Bro chicken is chicken that is way too good and its cool like your bro</td>
+          <td>$5.00 per bro chicken</td>
+      </tr>
+      <tr>
+          <td>Steak</td>
+          <td>This is the juiciest steaks and every bite will feel like you won the lottery</td>
+          <td>$10.00 a steak</td>
+      </tr>
+      <tr>
+          <td>Samosa's</td>
+          <td>This is handcooked freash and has prefect amount of spice</td>
+          <td>$3.00 per samosa</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+    </table>
+    </div>
+    <div class="column content5" id="Desserts">
+      <h1>Deserts</h1>
+      <p></p>
+      <img class="img5" src="http://data.whicdn.com/images/242882494/superthumb.png" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+         <td>Chocolate Chip Pizza</td>
+          <td>This is a pizza that is a chocolte chip cookie its too good to be true but it is true</td>
+          <td>$8.00 per chocolate chip slice</td>
+      </tr>
+      <tr>
+          <td>Cake</td>
+          <td>This is cake will leave anyone wanting to have some more you can byy this for a wedding, birthday, or no reason at doesnt really matter</td>
+          <td>$25.00 per cake different styles and sizes cost extra</td>
+      </tr>
+      <tr>
+          <td>Ice Cream</td>
+          <td>This ice cream is soft, sugary, and you'll feel like you won a bugatti</td>
+          <td>$1.99 per scoop and regular bowl is $5.00 per bowl
+      </tr>
+      <td>Doughnuts</td>
+      <td>These doughnuts are very good and way better then Tim Hortons</td> 
+       <td>$2.50 per doughnut</td>
+      <tr>
+    </table>
+    </div>
+    <div class="column content6" id="Beverages">
+      <h1>Beverages</h1>
+      <p></p>
+      <img class="img6" src="https://www.princess.com/images/ships-and-experience/food-and-dining/beverages/let-it-pour.jpg" width="300" height="170">
+      <table style="width:100%">
+      <tr>
+      </tr>
+      <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+      </tr>
+      <tr>
+          <td>Soda</td>
+          <td>WE have every single soda in the world from any country and u can come get it and drink some with you bros</td>
+          <td>$1.50 per beverage</td>
+      </tr>
+      <tr>
+          <td>Wine</td>
+          <td>This is the best wine in the world its excsquisite  </td>
+          <td>$20.00 a wine bottle</td>
+<tr>
+          <td>Juice</td>
+          <td>Our juice is the freshest juice ever and anyone can have it. We also have many different flavor's such as apple, oragnge, mango, peach, strawberry, lemonade and more</td>
+          <td>$2.00 a cup</td>
+      </tr>
+       <td>Coffee/Chai</td>
+          <td>This coffee and Chai will make you got to sleep in a instant</td>
+          <td>$2.00 a cup</td>
+    </table>
+    
+     <div class="column content 7" id="About Us">
+        
+      <h1>Where to Find us</h1>
+ 
+      <img class="img7" src="https://scotthillpizza.foodpages.ca/coupon/fullmaps?s=129882" width="300" height="170">
+      <table style="width:99%">
+      <tr>
+          
+          <td>We can be found on 15154 Fraser Hwy, Surrey, BC V3R 0X8 and our phone number is 604-532-1267 this is our main and best location if you want to come</td>
+          
+      
+      
+      
+      </table>
+    
+    
+    </div>
+    <div class="footer">
+      <p><center>WE have the best and fodd and prices. We are open Monday-Fridays 8am-10pm Saturday and Sunday 10am-8pm and are main and best location to be found is 15154 Fraser Hwy, Surrey, BC V3R 0X8 and if you want to contact us call 601-532-1267</center></p>
+    </div>
+    
+  
